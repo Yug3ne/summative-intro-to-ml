@@ -1,0 +1,7 @@
+trained on,model,training rows,Kenya ROC-AUC,± sd,Kenya PR-AUC,± sd 
+kenya only,LogReg,1151,0.626,0.033,0.345,0.037
+kenya only,GradBoost,1151,0.616,0.03,0.356,0.032
+africa only,LogReg,28091,0.626,0.038,0.346,0.034
+africa only,GradBoost,28091,0.623,0.037,0.354,0.038
+africa + kenya,LogReg,29242,0.627,0.038,0.346,0.035
+africa + kenya,GradBoost,29242,0.635,0.036,0.374,0.034

@@ -1,0 +1,20 @@
+# Raw and processed data must NOT be committed (assignment rule) - they live in Google Drive
+data/
+*.sav
+*.zip
+
+# Model weights are shared via Google Drive, not Git
+models/*.joblib
+models/*.keras
+models/*.h5
+
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+
+# Report drafts and Drive bundles stay local (the report is submitted as a PDF)
+report/
+deliverables/

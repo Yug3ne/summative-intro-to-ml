@@ -1,0 +1,9 @@
+,mean difference,sd of difference,folds improved (of 15)
+LogReg: B vs A  (Engineered),-0.004,0.012,6.0
+LogReg: C vs B  (B + country context),0.002,0.003,12.0
+LogReg: D vs C  (C + county budget data),0.007,0.025,9.0
+LogReg: E vs D  (D + attitudes),0.089,0.032,15.0
+GradBoost: B vs A  (Engineered),-0.01,0.018,4.0
+GradBoost: C vs B  (B + country context),0.008,0.012,12.0
+GradBoost: D vs C  (C + county budget data),-0.015,0.031,5.0
+GradBoost: E vs D  (D + attitudes),0.092,0.025,15.0

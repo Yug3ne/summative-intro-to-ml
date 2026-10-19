@@ -1,0 +1,11 @@
+feature_set,model,n_inputs,Kenya ROC-AUC,Kenya PR-AUC
+A. Raw items,LogReg,40,0.629 ± 0.034,0.352 ± 0.034
+A. Raw items,GradBoost,40,0.637 ± 0.037,0.366 ± 0.041
+B. Engineered,LogReg,18,0.625 ± 0.038,0.347 ± 0.034
+B. Engineered,GradBoost,18,0.627 ± 0.032,0.353 ± 0.031
+C. B + country context,LogReg,25,0.627 ± 0.038,0.346 ± 0.035
+C. B + country context,GradBoost,25,0.635 ± 0.036,0.374 ± 0.034
+D. C + county budget data,LogReg,37,0.634 ± 0.024,0.363 ± 0.024
+D. C + county budget data,GradBoost,37,0.621 ± 0.031,0.351 ± 0.025
+E. D + attitudes,LogReg,45,0.723 ± 0.038,0.472 ± 0.056
+E. D + attitudes,GradBoost,45,0.713 ± 0.031,0.467 ± 0.038
