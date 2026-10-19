@@ -2,11 +2,7 @@
 
 Predicting which Kenyans contact their Member of County Assembly (MCA), using survey data joined to county budget records. Machine Learning summative: scikit-learn models compared with Keras Sequential and Functional networks.
 
-| Deliverable | Link |
-|---|---|
-| Report (PDF) | _add link_ |
-| Google Drive: raw data (zipped) + model weights | _add link_ |
-| Video presentation | _add link_ |
+
 
 ## The question
 
@@ -57,7 +53,7 @@ jupyter lab citizen_voice_classification.ipynb
 On Colab:
 
 ```python
-!git clone https://github.com/Yug3ne/who-gets-heard-kenya && %cd who-gets-heard-kenya
+!git clone https://github.com/Yug3ne/summative-intro-to-ml && %cd summative-intro-to-ml
 !pip install -q pyreadstat pdfplumber openpyxl
 !python get_data.py
 ```
